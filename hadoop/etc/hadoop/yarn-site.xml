@@ -32,7 +32,7 @@
     </property>
     <property>
       <name>yarn.nodemanager.resource.cpu-vcores</name>
-      <value>28</value>
+      <value>30</value>
     </property>
     <property>
       <name>yarn.scheduler.maximum-allocation-mb</name>
