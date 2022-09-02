@@ -10,7 +10,7 @@
 JAVA_HOME=/usr/lib/jvm/default-java/
 HADOOP_HOME=/soft/APP/hadoop
 SPARK_HOME=/soft/APP/spark
-HADOOP_CONF_DIR=/soft/APP/hadoop/etc/hadoop
+HADOOP_CONF_DIR=/soft/APP/hadoop-spark-conf/hadoop/etc/hadoop
 
 PATH=/soft/APP/hadoop/bin/:/soft/APP/spark/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 ```
