@@ -45,7 +45,9 @@
 # - SPARK_MASTER_PORT / SPARK_MASTER_WEBUI_PORT, to use non-default ports for the master
 # - SPARK_MASTER_OPTS, to set config properties only for the master (e.g. "-Dx=y")
 # - SPARK_WORKER_CORES, to set the number of cores to use on this machine
+SPARK_WORKER_CORES=64
 # - SPARK_WORKER_MEMORY, to set how much total memory workers have to give executors (e.g. 1000m, 2g)
+SPARK_WORKER_MEMORY=96g
 # - SPARK_WORKER_PORT / SPARK_WORKER_WEBUI_PORT, to use non-default ports for the worker
 # - SPARK_WORKER_DIR, to set the working directory of worker processes
 SPARK_WORKER_DIR=/home/hadoop/spark/work
