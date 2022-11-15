@@ -48,6 +48,7 @@
 # - SPARK_WORKER_MEMORY, to set how much total memory workers have to give executors (e.g. 1000m, 2g)
 # - SPARK_WORKER_PORT / SPARK_WORKER_WEBUI_PORT, to use non-default ports for the worker
 # - SPARK_WORKER_DIR, to set the working directory of worker processes
+SPARK_WORKER_DIR=/home/hadoop/spark/work
 # - SPARK_WORKER_OPTS, to set config properties only for the worker (e.g. "-Dx=y")
 # - SPARK_DAEMON_MEMORY, to allocate to the master, worker and history server themselves (default: 1g).
 # - SPARK_HISTORY_OPTS, to set config properties only for the history server (e.g. "-Dx=y")
@@ -61,7 +62,9 @@
 
 # Generic options for the daemons used in the standalone deploy mode
 # - SPARK_CONF_DIR      Alternate conf dir. (Default: ${SPARK_HOME}/conf)
+SPARK_CONF_DIR=/soft/APP/hadoop-spark-conf/spark/conf
 # - SPARK_LOG_DIR       Where log files are stored.  (Default: ${SPARK_HOME}/logs)
+SPARK_LOG_DIR=/home/hadoop/spark/logs
 # - SPARK_LOG_MAX_FILES Max log files of Spark daemons can rotate to. Default is 5.
 # - SPARK_PID_DIR       Where the pid file is stored. (Default: /tmp)
 # - SPARK_IDENT_STRING  A string representing this instance of spark. (Default: $USER)
@@ -70,4 +73,6 @@
 # Options for native BLAS, like Intel MKL, OpenBLAS, and so on.
 # You might get better performance to enable these options if using native BLAS (see SPARK-21305).
 # - MKL_NUM_THREADS=1        Disable multi-threading of Intel MKL
+MKL_NUM_THREADS=1
 # - OPENBLAS_NUM_THREADS=1   Disable multi-threading of OpenBLAS
+OPENBLAS_NUM_THREADS=1

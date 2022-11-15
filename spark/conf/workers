@@ -15,15 +15,7 @@
 # limitations under the License.
 #
 
-# Default system properties included when running spark-submit.
-# This is useful for setting default environmental settings.
-
-# Example:
-spark.master                     spark://conf-manager:7077
-spark.eventLog.enabled           false
-spark.eventLog.dir               /home/hadoop/logs/spark/
-# spark.serializer                 org.apache.spark.serializer.KryoSerializer
-spark.driver.memory              5g
-# spark.executor.extraJavaOptions  -XX:+PrintGCDetails -Dkey=value -Dnumbers="one two three"
-# spark.yarn.jars			   hdfs://192.168.113.170:9000//opt/spark/jars/*
-spark.ui.enabled		   false
+# A Spark Worker will be started on each of the machines listed below.
+nod-1
+nod-2
+nod-3
