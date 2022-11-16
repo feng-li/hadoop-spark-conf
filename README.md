@@ -1,11 +1,16 @@
 # Basic Hadoop and Spark config files
 
-This simple setup is for a MapReduce framework including
+This simple configuration is for a MapReduce framework on a Linux server including
 
 - Apache Hadoop
-- Spark standalone
+- Apache Spark standalone
 
-Make sure necessary environment variables are set. If you have the access to `/etc/environment`, you could write there and it will take effect gloablly. Otherwise, you have to write them to a file (usually in `~/.bashrc` or `~/.zshrc`) and source it before you start the servers.
+_If you want to quickly deploy a Spark cluster on a Slurm server as a regular user, look at [https://github.com/feng-li/spark-on-slurm](https://github.com/feng-li/spark-on-slurm)._
+
+## Prerequisites
+
+- Make sure necessary environment variables are set. If you have the access to `/etc/environment`, you could write there and it will take effect gloablly. Otherwise, you have to write them to a file (usually in `~/.bashrc` or `~/.zshrc`) and source it before you start the servers.
+
 
 ```sh
 ## NOTE: /etc/environment dose not support `$` expantion.
