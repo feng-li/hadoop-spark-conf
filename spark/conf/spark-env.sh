@@ -64,7 +64,7 @@ SPARK_WORKER_DIR=/home/hadoop/spark/work
 
 # Generic options for the daemons used in the standalone deploy mode
 # - SPARK_CONF_DIR      Alternate conf dir. (Default: ${SPARK_HOME}/conf)
-SPARK_CONF_DIR=/soft/APP/hadoop-spark-conf/spark/conf
+SPARK_CONF_DIR=/home1/soft/APP/hadoop-spark-conf/spark/conf
 # - SPARK_LOG_DIR       Where log files are stored.  (Default: ${SPARK_HOME}/logs)
 SPARK_LOG_DIR=/home/hadoop/spark/logs
 # - SPARK_LOG_MAX_FILES Max log files of Spark daemons can rotate to. Default is 5.
