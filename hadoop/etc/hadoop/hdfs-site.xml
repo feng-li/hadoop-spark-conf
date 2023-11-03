@@ -29,7 +29,10 @@
     <name>dfs.datanode.data.dir</name>
     <value>/hdfs/datanode</value>
   </property>
-
+  <property>
+    <name>dfs.permissions.enabled</name>
+    <value>false</value>
+ </property>
   <property>
     <name>dfs.namenode.acls.enabled</name>
     <value>true</value>
